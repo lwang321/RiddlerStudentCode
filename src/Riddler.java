@@ -4,7 +4,7 @@
  * for Adventures in Algorithms
  * At Menlo School in Atherton, CA
  *
- * Completed by: YOUR NAME HERE
+ * Completed by: Lucas Wang
  */
 
 
@@ -13,7 +13,6 @@ public class Riddler {
     public String decryptOne(String encrypted) {
         String decrypted = "";
 
-        // TODO: Complete the decryptOne() function.
         for (int i=0; i<encrypted.length(); i++)
         {
             char c = encrypted.charAt(i);
@@ -48,7 +47,6 @@ public class Riddler {
             char c = (char) (Integer.parseInt(nums[i], 10));
             decrypted = decrypted + String.valueOf(c);
         }
-        // TODO: Complete the decryptTwo() function.
         System.out.println(decrypted);
         return decrypted;
 
@@ -65,7 +63,6 @@ public class Riddler {
             decrypted = decrypted + String.valueOf(c);
         }
 
-        // TODO: Complete the decryptThree() function.
         System.out.println(decrypted);
         return decrypted;
     }
@@ -78,7 +75,6 @@ public class Riddler {
             char c = (char)((int) encrypted.charAt(i) - 9919);
             decrypted = decrypted + String.valueOf(c);
         }
-        // TODO: Complete the decryptFour() function.
         System.out.println(decrypted);
         return decrypted;
     }
