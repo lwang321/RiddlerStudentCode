@@ -1,9 +1,9 @@
 Name: YOUR NAME HERE
 
-| Date   |    Time    |                                                                    Update |
-|:-------|:----------:|--------------------------------------------------------------------------:|
-| Aug 22 |  8-8:30pm  | I started by thinking about my place in the universe.<br/>It was scary... |
-|        |            |                                                             And then I... |
-
+| Date   |     Time     |                                                                                                                                                                                                                                                                                                                                                                                                                            Update |
+|:-------|:------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Aug 21 |    9-10am    |     Classtime: found out that the first puzzle was a 9-shifted cipher, questioned if our solution was right because sounds like gibberish. We then thought that maybe the solution was just a simple Caeser cipher but with a just couple of letters doing something different so we tried to reason out which letters they would be but had no luck. We ended class with the 9-shifted transcription but without a final answer. |
+| Aug 21 |    3-5pm     | I figured out that our solution to the first puzzle was right (it's a lewis carroll poem); I found the solution to the second poem is just converting the numbers to characters through ASCII (another Lewis Carroll poem); I found the solution to the third poem is just binary numbers converted to ASCII but I can't figure out how to code it yet;; I wrote the first two in python but the third one I'm still figuring out |
+| Aug 27 | 12:30-1:30pm |                                                                                      I figured out my problem in the third riddle and found the fourth riddle was just another caeser cipher. I then put everything into Java and finished the problem set. The connecting factor is that all riddles are Lewis Caroll poems (Jabberwocky, The Walrus and the Carpenter, The Hunting of the Snark, and Through the Looking Glass. |
 
 To add a new row to the table, click into a cell and then hit shift-enter.

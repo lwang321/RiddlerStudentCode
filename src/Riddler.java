@@ -18,7 +18,12 @@ public class Riddler {
         {
             char c = encrypted.charAt(i);
             char p;
-            if (Character.isUpperCase(c))
+
+            if (c == ' ' || c == ',' || c == '.' || c == ':' || c == '’')
+            {
+                p = c;
+            }
+            else if (Character.isUpperCase(c))
             {
                 p = (char) (((int) c + 9 - 'A') % 26 + 'A');
             }
@@ -28,6 +33,7 @@ public class Riddler {
             }
             decrypted = decrypted + String.valueOf(p);
         }
+        System.out.println(decrypted);
 
         return decrypted;
     }
@@ -39,19 +45,20 @@ public class Riddler {
 
         for (int i=0; i<nums.length; i++)
         {
-            char c = (char) ((int) nums[i]);
+            char c = (char) (Integer.parseInt(nums[i], 10));
             decrypted = decrypted + String.valueOf(c);
         }
         // TODO: Complete the decryptTwo() function.
-
+        System.out.println(decrypted);
         return decrypted;
+
     }
 
     public String decryptThree(String encrypted) {
         String decrypted = "";
 
 
-        for (int i=0; i<encrypted.length/8; i++)
+        for (int i=0; i<encrypted.length()/8; i++)
         {
             String num = encrypted.substring(i * 8, i * 8 + 8);
             char c = (char) Integer.parseInt(num, 2);
@@ -59,20 +66,20 @@ public class Riddler {
         }
 
         // TODO: Complete the decryptThree() function.
-
+        System.out.println(decrypted);
         return decrypted;
     }
 
     public String decryptFour(String encrypted) {
         String decrypted = "";
 
-        for (int i=0; i<encrypted.length; i++)
+        for (int i=0; i<encrypted.length(); i++)
         {
             char c = (char)((int) encrypted.charAt(i) - 9919);
             decrypted = decrypted + String.valueOf(c);
         }
         // TODO: Complete the decryptFour() function.
-
+        System.out.println(decrypted);
         return decrypted;
     }
 }
